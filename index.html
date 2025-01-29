@@ -7,430 +7,301 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo/logo.png">
 </head>
 
 <body>
-    <nav class="navbar">
-        <a href="#home"><i class="fas fa-home"></i> <span>home</span></a>
-        <a href="#about"><i class="fas fa-user"></i> <span>about</span></a>
-        <a href="#experience"><i class="fas fa-briefcase"></i> <span>experience</span></a>
-        <a href="#portfolio"><i class="fa-solid fa-file"></i> <span>portfolio</span></a>
-    </nav>
-
-    <section class="home" id="home">
-        <div class="image">
+    <div class="container">
+        <div class="home" id="home">
             <img src="images/profile.jpg" alt="">
-        </div>
-        <div class="content">
-            <h3>Hi, I am Aisyah Nadhira</h3>
-            <span>Front End Developer</span>
-            <div class="box">
-                <div class="share">
-                    <a href="https://www.instagram.com/aisyah1205/" class="fab fa-instagram" target="_blank"></a>
-                    <a href="https://github.com/aisyahnadhira" class="fab fa-github" target="_blank"></a>
-                    <a href="https://www.linkedin.com/in/aisyah-nadhira-salma-maritza/" class="fab fa-linkedin"
-                        target="_blank"></a>
+            <div class="content">
+                <h3>Hi, I am Aisyah Nadhira</h3>
+                <h4 class="text-gold">Front End Developer</h4>
+                <div class="home-box">
+                    <div class="share">
+                        <a href="https://www.instagram.com/aisyahnadhs/" class="fab fa-instagram" target="_blank"></a>
+                        <a href="https://github.com/aisyahnadhira" class="fab fa-github" target="_blank"></a>
+                        <a href="https://www.linkedin.com/in/aisyah-nadhira-salma-maritza/" class="fab fa-linkedin"
+                            target="_blank"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <div class="button" style="margin-right: 10px;">
+                <div class="button">
                     <a href="docs/Resume Aisyah Nadhira Salma Maritza.pdf" download="CV Aisyah Nadhira" class="btn">
                         Download CV <i class="fa-solid fa-file"></i> </a>
                 </div>
-                <div class="button">
-                    <a href="docs/List Portofolio Aisyah Nadhira Salma Maritza.pdf" download="Portfolio Aisyah Nadhira" class="btn">
-                        Download Portfolio <i class="fa-solid fa-folder"></i> </a>
-                </div>
             </div>
         </div>
-    </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <h1 class="heading"> about <span>me</span> </h1>
-        <div class="row">
-            <div class="info-container">
-                <div class="box-container">
-                    <div class="column">
-                        <p>I'm a developer enthusiastic about technology, particularly in websites and mobile
-                            applications. With around 3 years of experience both
-                            locally and internationally, I have strong skills in building websites and mobile apps. I
-                            prioritize quality in my work and stay updated with
-                            the latest technological developments.</p>
-                    </div>
-                    <div class="column">
-                        <div class="box">
-                            <div class="button">
-                                <a href="tel:+6282234641322" class="btn"> Number <i class="fa-solid fa-phone"></i> </a>
-                            </div>
+        <!-- About Section -->
+        <div class="about" id="about">
+            <h1 class="heading"> about <span>me</span> </h1>
+            <div class="row">
+                <div class="info-container">
+                    <div class="box-container">
+                        <div class="column">
+                            <p>I'm a developer enthusiastic about technology, particularly in websites and mobile
+                                applications. With around 3 years of experience both
+                                locally and internationally. I have strong skills in building websites and mobile apps.
+                                I
+                                prioritize quality in my work and stay updated with
+                                the latest technological developments.</p>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <div class="button">
+                                    <a href="tel:+6282234641322" class="btn"> Number <i class="fa-solid fa-phone"></i>
+                                    </a>
+                                </div>
 
-                            <div class="button">
-                                <a href="mailto:aisyahnadhira909@gmail.com" class="btn"> Email <i
-                                        class="fa-solid fa-envelope"></i> </a>
+                                <div class="button">
+                                    <a href="mailto:aisyahnadhira909@gmail.com" class="btn"> Email <i
+                                            class="fa-solid fa-envelope"></i> </a>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
 
-    <!-- Skills Section -->
-    <section class="skills">
-        <h1 class="heading"> <span>my</span> skills </h1>
-        <h2>Google Workspace</h2>
-        <div class="box-container">
-            <div class="box">
-                <h3>Drive</h3>
-            </div>
-            <div class="box">
-                <h3>Spreadsheet</h3>
-            </div>
-            <div class="box">
-                <h3>Slide</h3>
-            </div>
-            <div class="box">
-                <h3>Google Analytics</h3>
-            </div>
+        <!-- Skills Section -->
+        <div class="skills">
+            <h1 class="heading"> <span>my</span> skills </h1>
+            <div class="skills-grid" id="skills-grid"></div>
         </div>
 
-        <br>
-        <h2>Coding</h2>
-        <div class="box-container">
-            <div class="box">
-                <h3>JavaScript</h3>
-            </div>
-            <div class="box">
-                <h3>ReactJS</h3>
-            </div>
-            <div class="box">
-                <h3>WordPress</h3>
-            </div>
-            <div class="box">
-                <h3>HTML CSS</h3>
-            </div>
-            <div class="box">
-                <h3>Laravel</h3>
-            </div>
-            <div class="box">
-                <h3>Php</h3>
-            </div>
-            <div class="box">
-                <h3>Angular</h3>
-            </div>
-            <div class="box">
-                <h3>TypeScript</h3>
-            </div>
-            <div class="box">
-                <h3>MySql</h3>
-            </div>
-            <div class="box">
-                <h3>Flutter</h3>
-            </div>
-            <div class="box">
-                <h3>Dart</h3>
-            </div>
-        </div>
+        <!-- Education Section -->
+        <div class="education">
+            <h1 class="heading"> <span>my</span> education </h1>
+            <div class="box-container">
 
-        <br>
-        <h2>Design</h2>
-        <div class="box-container">
-            <div class="box">
-                <h3>Photoshop</h3>
-            </div>
-            <div class="box">
-                <h3>Figma</h3>
-            </div>
-            <div class="box">
-                <h3>Canva</h3>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section class="education">
-        <h1 class="heading"> <span>my</span> education </h1>
-        <div class="box-container">
-
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2020 - 2024</span>
-                <h3>Politeknik Negeri Malang - Information Technology Department</h3>
-                <ul>
-                    <li>Successfully completed the campus level in the Student Creativity Program for Entrepreneurship
-                        and Campus-Industry Partnership
-                        (PKM-KC) by creating a website called SIMONGA (Internship Monitoring System).
-                    </li>
-                    <li>Achieved an A grade in the Advanced Web Programming course by successfully developing a website
-                        called Farm Fresh (Online Fruit
-                        and Vegetable Sales) using Laravel and MySQL</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="education" id="experience">
-        <h1 class="heading"> <span>my</span> experience </h1>
-        <div class="box-container">
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>May 2024 - Present</span>
-                <h3>Mereka - Kuala Lumpur, Malaysia</h3>
-                <h4>Frond End Developer Intern</h4>
-                <ul>
-                    <li>Participated in daily stand-up meetings to report progress.</li>
-                    <li>Took part in bi-weekly sprints to develop features.</li>
-                    <li>Collaborated within the team to create the website using Angular</li>
-                    <li>Collaborated with project management to discuss tasks in the Kanban board.</li>
-                </ul>
-            </div>
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Mar 2024 - Present</span>
-                <h3>MSIB Alumni Space - Indonesia</h3>
-                <h4>Staf Mentoring Mahasiswa</h4>
-                <ul>
-                    <li>Participated in the student mentoring program for MSIB Batch 7 preparation</li>
-                    <li>Created engaging Instagram content for MSIB tips and tricks</li>
-                    <li>Acted as a mentor, guiding students applying to MSIB</li>
-                    <li>Reviewed CVs and assisted in the creation of participant CVs</li>
-                    <li>Directed participants to MSIB partners according to their majors and skills</li>
-                    <li>Conducted interview practice sessions for interview preparation</li>
-                </ul>   
-            </div>
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Aug 2023 - Dec 2023</span>
-                <h3>BPJS Ketenagakerjaan - DKI Jakarta</h3>
-                <h4>Junior Programmer</h4>
-                <ul>
-                    <li>Development of website-based applications to manage user manuals for all applications in BPJS to become digital and unified.</li>
-                    <li>Testing internal mobile application before Pen-Testing.</li>
-                    <li>Clean code internal mobile application using Flutter.</li>
-                </ul>
-            </div>
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Feb 2023 - Aug 2023</span>
-                <h3>PT Berani Tumbuh - Malang, East Java</h3>
-                <h4>Wordpress Developer</h4>
-                <ul>
-                    <li>Created 2 pages layouts and redesign using the Wordpress with a user-friendly interface</li>
-                    <li>Keyword adjustments for SEO needs.</li>
-                </ul>
-            </div>
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Feb 2023 - Jun 2023</span>
-                <h3>Studi Independent Kampus Merdeka X Ruangguru - DKI 
-                    Jakarta</h3>
-                <h4>Frontend Engineering</h4>
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>2020 - 2024</span>
+                    <h3>Politeknik Negeri Malang - Information Technology Department</h3>
+                    <h4>3.86/4.00</h4>
                     <ul>
-                        <li>Learn and develop general competencies in software development techniques, with a focus on front-end development.</li>
-                        <li>Increase understanding of software engineering and apply it in available exercises.</li>
-                        <li>Learn how to use Git to manage project versions and deploy them in task submissions.</li>
-                        <li>Deepen knowledge and skills in the JavaScript programming language.</li>
-                        <li>Use HTML, CSS, and DOM to design and build responsive and attractive user interfaces.</li>
-                        <li>Complete exercises and final projects that involve using React technology.</li>
-                        <li>Create a student portal website using React and ensure responsiveness for every device.</li>
-                        <li>Achieve an A grade in every aspect of the assessment in each chapter of the material studied.</li>
+                        <li>Successfully achieved an A grade in the undergraduate thesis titled "Classification of
+                            Random Forest from the Labeling Results of User
+                            Reviews for the BRI Mobile (BRImo) Application" using machine learning.</li>
+                        <li>Achieved an A grade in the Advanced Web Programming course by successfully developing a
+                            website
+                            called Farm Fresh (Online Fruit
+                            and Vegetable Sales) using Laravel and MySQL</li>
+                        <li>Successfully completed the campus level in the Student Creativity Program for
+                            Entrepreneurship
+                            and Campus-Industry Partnership
+                            (PKM-KC) by creating a website called SIMONGA (Internship Monitoring System).
+                        </li>
                     </ul>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Feb 2023 - Jun 2023</span>
-                <h3>Studi Independent Kampus Merdeka X Ruangguru - DKI 
-                    Jakarta</h3>
-                <h4>Asisten Mentor</h4>
-                <ul>
-                    <li>Assisting mentees in solving problems and overcoming difficulties that arise during the learning process.</li>
-                    <li>Providing regular mentoring sessions, including discussions and reviews of exercises, assignments, and other tasks.</li>
-                    <li>Building a good relationship with mentees and providing moral support to help them achieve their learning goals.</li>
-                    <li>Reporting on mentoring activities carried out through the Ruangguru platform.</li>
-                </ul>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Dec 2022 - Mar 2023</span>
-                <h3>PT. Cilsy Fiolution Indonesia - Bandung, West Java</h3>
-                <h4>Wordpress Developer</h4>
-                <ul>
-                    <li>Designed and built an LMS (Learning Management System) website using the Laravel platform and MySQL database, based on my own designs using Figma.</li>
-                    <li>Sliced designs from Figma and implemented them into the website.</li>
-                    <li>Developed an online learning system emphasizing user experience and student progress tracking.</li>
-                    <li>Demonstrated proficiency in web programming using the PHP programming language and MySQL database.</li>
-                    <li>Collaborated with project management to discuss tasks using a Kanban board.</li>
-                    <li>Participated in weekly sprints to manage project tasks and milestones.</li>
-                </ul>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>May 2022 - Nov 2022</span>
-                <h3>cmlabs.co - Malang, East Java</h3>
-                <h4>Wordpress Developer</h4>
-                <ul>
-                    <li>Created 10 website layouts using Wordpress, based on designs provided by the design team.</li>
-                    <li>Sliced designs and implemented changes in appearance on each website page as needed.</li>
-                    <li>Managed the migration of 12 websites to a new hosting service and optimized website performance to achieve a score of 100 on every device.</li>
-                    <li>Demonstrated expertise in website development using Wordpress, proficiency in design tools, and knowledge of the latest web technologies.</li>
-                    <li>Performed keyword adjustments for SEO requirements.</li>
-                    <li>Participated in weekly sprints to manage project tasks and milestones.</li>
-                </ul>
-                
-            </div>
-
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>May 2022 - Jul 2022</span>
-                <h3>Inventor Class - Bandung, West Java</h3>
-                <h4>Website Programmer</h4>
-                <ul>
-                    <li>Designed and built an LMS (Learning Management System) website using the Laravel platform and MySQL database, based on my own designs using Figma.</li>
-                    <li>Sliced designs from Figma and implemented them into the website.</li>
-                    <li>Developed an online learning system emphasizing user experience and student progress tracking.</li>
-                    <li>Demonstrated proficiency in web programming using the PHP programming language and MySQL database.</li>
-                    <li>Collaborated with project management to discuss tasks using a Kanban board.</li>
-                    <li>Participated in weekly sprints to manage project tasks and milestones.</li>
-                </ul>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-briefcase"></i>
-                <span>Sep 2021 - Jul 2022</span>
-                <h3>Industry Learning Center - Bandung, West Java</h3>
-                <h4>Website Developer</h4>
-                <ul>
-                    <li>Developed websites using the Wordpress platform with a focus on responsive design and user-friendly interfaces based on my own 
-                        designs using Canva.</li>
-                    <li>Maintained the latest content on the blog by publishing two articles every week.</li>
-                    <li>Improved skills in website development and CMS usage.</li>
-                </ul>
-            </div>
-            
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h1 class="heading"> <span>my</span> work </h1>
-        <div class="tab-container">
-            <button class="tab-button active" onclick="openTab('website', this)">Website</button>
-            <button class="tab-button" onclick="openTab('apps', this)">Apps</button>
-            <button class="tab-button" onclick="openTab('uiux', this)">UI/UX</button>
-        </div>
-        <div class="tab-content" id="website">
-            <div class="box-container">
-                <div class="box">
-                    <img src="images/w1.png" alt="">
-                    <div class="content">
-                        <h3>Mereka.io</h3>
-                        <p>Mereka.io is an application owned by Mereka that connects users with experts and leading services to solve the most pressing challenges and provide necessary training to the general public. This website offers insights from verified professionals and organizations to address issues related to business, careers, or personal well-being. This website is built using Angular technology.</p>
-                        <a href="https://mereka.io/" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/w2.png" alt="">
-                    <div class="content">
-                        <h3>MediaWiki</h3>
-                        <p> MediaWiki website is an internal site owned by BPJS Ketenagakerjaan, used to organize all user manuals for BPJS Ketenagakerjaan applications. This website is built using the MediaWiki CMS from Wikipedia.</p>
-                        <a class="internal" href="#" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/w3.png" alt="">
-                    <div class="content">
-                        <h3>Berani Tumbuh</h3>
-                        <p>Berani Tumbuh is an application that provides services to assist with PKM, PIMNAS, final projects, and offers journals and books that can be accessed for a fee. This website also features tips, interesting facts, and news. This website is built using WordPress and CSS.</p>
-                        <a href="https://beranitumbuh.com/" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/w4.png" alt="">
-                    <div class="content">
-                        <h3>Student Portal</h3>
-                        <p>Website to display, add and edit student data. Build using ReactJs, RESTful APIs and Chakra UI.</p>
-                        <a href="https://drive.google.com/file/d/1Bo62tKsKbL0NlBfqOzz4uHrhSQjEcD4x/view?usp=sharing" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/w5.PNG" alt="">
-                    <div class="content">
-                        <h3>Farm Fresh</h3>
-                        <p>An online shop website selling fruits and vegetables with the laravel framework, using php and javascript, the website is connected to a sql database.</p>
-                        <a href="https://drive.google.com/file/d/1c8zotUrnq-1enzTN4uGd4Azjsehgavw8/view?usp=sharing" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/w6.PNG" alt="">
-                    <div class="content">
-                        <h3>Admark</h3>
-                        <p>Is a website that is used for ordering banners. The website was created using wordpress.</p>
-                        <a href="https://drive.google.com/file/d/1XO9ZlcLVqYEMCvfIJu4Rl4N6wW_rSn1R/view?usp=drive_link" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/w7.PNG" alt="">
-                    <div class="content">
-                        <h3>ILC Website</h3>
-                        <p>Is a website that is used to upload posts regarding industry & activities in the form of webinars conducted by the Industry learning Center. The website was created using wordpress.</p>
-                        <a href="https://drive.google.com/file/d/1xrXSM16sjWGfRB3TjhF-AXCDOR0Xvh-p/view?usp=drive_link" target="_blank">View Project</a>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="tab-content" id="apps" style="display:none;">
-            <div class="box-container">
-                <div class="box">
-                    <img src="images/m1.jpg" alt="">
-                    <div class="content">
-                        <h3>SMILE</h3>
-                        <p>SMILE (Sistem Informasi Perlindungan Pekerja) is an application owned by BPJS Ketenagakerjaan that is used to track the visit history of BPJS employees to workers and display the companies connected with BPJS Ketenagakerjaan. This application is developed using Flutter.</p>
-                        <a class="internal" href="#" target="_blank">View Project</a>
+
+        <div class="education" id="experience">
+            <h1 class="heading"> <span>my</span> experience </h1>
+            <div class="box-container" id="experience-container">
+            </div>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <h1 class="heading"> <span>my</span> work </h1>
+            <div class="tab-container">
+                <button class="tab-button active" onclick="openTab('website', this)">Website</button>
+                <button class="tab-button" onclick="openTab('apps', this)">Apps</button>
+                <button class="tab-button" onclick="openTab('uiux', this)">UI/UX</button>
+            </div>
+            <div class="tab-content" id="website">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/w1.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                 <h3>Mereka.io</h3>
+                                <p>Mereka.io is an application owned by Mereka that connects users with experts and leading services to solve pressing challenges and provide necessary training to the general public.</p>
+                                <div class="tags">
+                                    <span>Angular</span>
+                                    <span>Typescript</span>
+                                    <span>SCSS</span>
+                                    <span>Stripe</span>
+                                    <span>Algolia</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="https://mereka.io/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/w-hyge.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Hyge FE Test</h3>
+                                <p>This website was created for a frontend skill test at Hyge.</p>
+                                <div class="tags">
+                                    <span>NextJS</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="https://hyge-fe-test.netlify.app/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/w2.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>MediaWiki</h3>
+                                <p>MediaWiki is an internal website owned by BPJS Ketenagakerjaan, used to organize all user manuals for BPJS Ketenagakerjaan applications. It is built using the MediaWiki CMS from Wikipedia.</p>
+                                <div class="tags">
+                                    <span>MediaWiki</span>
+                                    <span>CMS</span>
+                                    <span>HTML CSS</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a class="internal" href="#" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/w3.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Berani Tumbuh</h3>
+                                <p>Berani Tumbuh is an application that provides services for PKM, PIMNAS, final projects, and offers journals and books for a fee. The site also features tips, facts, and news. Built with WordPress and CSS.</p>
+                                <div class="tags">
+                                    <span>WordPress</span>
+                                    <span>CSS</span>
+                                    <span>Jnews</span>
+                                    <span>SEO</span>
+                                    <span>Google Analytics</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="https://beranitumbuh.com/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/w-detik.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Detik Finance Test</h3>
+                                <p>This website was used for a skill test at detik.com.</p>
+                                <div class="tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="https://detiktest.netlify.app/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/w4.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Student Portal</h3>
+                                <p>A website to display, add, and edit student data. Built using ReactJs, RESTful APIs, and Chakra UI.</p>
+                                <div class="tags">
+                                    <span>ReactJs</span>
+                                    <span>Chakra UI</span>
+                                    <span>RESTful API</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="https://drive.google.com/file/d/1Bo62tKsKbL0NlBfqOzz4uHrhSQjEcD4x/view?usp=sharing" target="_blank">View Project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="box">
-                    <img src="images/m2.jpg" alt="">
-                    <div class="content">
-                        <h3>Coffee Shop</h3>
-                        <p>Mobile application used to place coffee orders.</p>
-                        <a href="https://drive.google.com/file/d/1Tcyaf1nZzPfuHZcvM_Dq2LAiTrpoBfuo/view?usp=drive_link" target="_blank">View Project</a>
+            </div>
+        
+            <div class="tab-content" id="apps" style="display:none;">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/m1.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <h3>SMILE</h3>
+                                <p>SMILE (Sistem Informasi Perlindungan Pekerja) is an app owned by BPJS Ketenagakerjaan to track the visit history of BPJS employees to workers and display the companies connected to BPJS Ketenagakerjaan. Developed using Flutter.</p>
+                            </div>
+                            <div class="button">
+                                <a class="internal" href="#" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/m2.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <h3>Coffee Shop</h3>
+                                <p>A mobile application used to place coffee orders.</p>
+                            </div>
+                            <div class="button">
+                                <a href="https://drive.google.com/file/d/1Tcyaf1nZzPfuHZcvM_Dq2LAiTrpoBfuo/view?usp=drive_link" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/m3.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <h3>Recipe Food App</h3>
+                                <p>An app with a collection of recipes, ingredients, and cooking video tutorials.</p>
+                            </div>
+                            <div class="button">
+                                <a href="https://drive.google.com/file/d/1oM0-_LR59OgRPQ6i-kzW08b9FFnOLF92/view?usp=drive_link" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="box">
+                        <img src="images/m4.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <h3>Calori Food App</h3>
+                                <p>An app that provides calorie information for various food recipes, including ingredient details and cooking tutorials.</p>
+                            </div>
+                            <div class="button">
+                                <a href="https://drive.google.com/file/d/15R8b-_TAQUBuWplbE69Xl9vSroO4w5dE/view?usp=drive_link" target="_blank">View Project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="box">
-                    <img src="images/m3.jpg" alt="">
-                    <div class="content">
-                        <h3>Recipe Food App</h3>
-                        <p>Applications that contain a collection of recipes along with the ingredients used as well as cooking video tutorials.</p>
-                        <a href="https://drive.google.com/file/d/1oM0-_LR59OgRPQ6i-kzW08b9FFnOLF92/view?usp=drive_link" target="_blank">View Project</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <img src="images/m4.jpg" alt="">
-                    <div class="content">
-                        <h3>Calori Food App</h3>
-                        <p>Applications that contain a collection of recipes along with the ingredients used as well as cooking video tutorials.</p>
-                        <a href="https://drive.google.com/file/d/15R8b-_TAQUBuWplbE69Xl9vSroO4w5dE/view?usp=drive_link" target="_blank">View Project</a>
+            </div>
+        
+            <div class="tab-content" id="uiux">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/u1.png" alt="">
+                        <div class="content">
+                            <div>
+                                <h3>LMS Inventor Class</h3>
+                                <p>A website for managing Inventor Class.</p>
+                            </div>
+                            <div class="button">
+                                <a href="https://www.figma.com/file/2IUQscbLAzqb6dM233flWY/LMS?type=design&node-id=25-2" target="_blank">View Project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="tab-content" id="uiux">
-            <div class="box-container">
-                <div class="box">
-                    <img src="images/u1.png" alt="">
-                    <div class="content">
-                        <h3>LMS Inventor Class</h3>
-                        <a href="https://www.figma.com/file/2IUQscbLAzqb6dM233flWY/LMS?type=design&node-id=25-2" target="_blank">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
+        
+    </div>
 </body>
 <script src="script.js"></script>
 
