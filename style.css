@@ -28,16 +28,16 @@ html::-webkit-scrollbar-thumb {
     border-radius: 5rem;
 }
 
-body {
-    background: #fff;
-    padding-bottom: 6.5rem;
-    color: #000;
-}
-
-section {
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     padding: 5rem 9%;
 }
 
+.home{
+    min-height: calc(100vh - 6.5rem);
+}
 .heading {
     text-align: center;
     font-size: 6vw;
@@ -85,168 +85,135 @@ section {
     margin-left: 1.5rem; 
 }
 
-.navbar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    z-index: 1000;
-    align-items: flex-end;
-    background-color: #fff;
-    text-transform: capitalize;
+h3{
+    font-size: 4rem;
 }
 
-.navbar a {
-    padding: 2rem;
-    font-size: 2rem;
-    background: #1a1a1a;
-    flex: 1;
-    color: #fff;
-    text-align: center;
-    transition: .2s linear;
+h4{
+    font-size: 2.5rem;
+    font-weight: 500;
 }
-
-.navbar a i {
+.text-gold{
     color: #b38b59;
-    padding-right: .5rem;
-}
-
-.navbar a:hover {
-    background: #b38b59;
-    padding-bottom: 6rem;
-}
-
-.navbar a:hover i {
-    color: #fff;
 }
 
 /* Home */
-.home {
+.home{
     display: flex;
     align-items: center;
     gap: 4rem;
-    min-height: calc(100vh - 6.5rem);
+    img {
+        height: 50rem;
+        width: 50rem;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
 }
 
-.home .image {
-    text-align: center;
-}
-
-.home .image img {
-    height: 50rem;
-    width: 50rem;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-}
-
-.home .content h3 {
-    color: #000;
-    font-size: 4rem;
-    padding-bottom: .5rem;
-}
-
-.home .content span {
-    font-size: 2.5rem;
-    color: #b38b59;
-    padding: .5rem 0;
-    display: block;
-}
-
-.home .content p {
-    font-size: 1.5rem;
-    color: #000;
-    padding: 1rem 0;
-    line-height: 2;
-}
-
-.home .content .box {
+.home-box {
     display: flex;
     margin: 20px 0;
-}
-
-.home .content .box .share a {
-    font-size: 2.5rem;
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    border-radius: 50%;
-    background: #1a1a1a;
-    color: #fff;
-    text-align: center;
-    margin-right: 1rem;
-}
-
-.home .content .box .share a:hover {
-    background: #b38b59;
+    .share a {
+        font-size: 2.5rem;
+        height: 4.5rem;
+        width: 4.5rem;
+        line-height: 4.5rem;
+        border-radius: 50%;
+        background: #1a1a1a;
+        color: #fff;
+        text-align: center;
+        margin-right: 1rem;
+    }
+    .share a:hover {
+        background: #b38b59;
+    }
 }
 
 /* About */
-.about .row {
+.about, .education{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
-.about .row .info-container {
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 20px;
-}
-
-.about .row .info-container .box-container {
+.about .box-container {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.about .row .info-container .box-container .column {
+.about .column {
     flex: 1 1 42rem;
     display: flex;
     justify-content: center; 
 }
 
-.about .row .info-container p {
+.about p {
     font-size: 1.8rem;
     line-height: 2;
     color: #000;
-    padding: 1rem 0;
     text-transform: none;
     text-align: justify;
 }
 
-.about .row .info-container .box-container .box {
+.about .box {
     display: flex;
     gap: 2rem;
-    padding: 1rem 0;
 }
 
-.skills .box-container {
+
+.skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
 }
 
-.skills .box-container .box {
-    padding: 2rem;
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Warna latar belakang card */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut untuk card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-    border-radius: .5rem;
-    background: #1a1a1a;
 }
 
-.skills .box-container .box:hover {
-    background: #b38b59;
-    color: #ffffff;
+.skill-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
 }
 
-.skills .box-container .box:hover h3 {
-    color: #000;
+.skill-card p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
 }
 
-.skills .box-container .box h3 {
-    color: #fff;
-    font-size: 1.7rem;
-    font-weight: normal;
-    text-transform: uppercase;
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); 
+}
+
+@media (max-width: 1024px) {
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .education .box-container {
@@ -308,14 +275,11 @@ section {
 
 .portfolio {
     text-align: center;
-    padding: 5rem 9%;
-    background: #fff;
-    color: #000;
 }
 
-.portfolio .heading span {
+/* .portfolio .heading span {
     color: #b38b59;
-}
+} */
 
 .portfolio .tab-container {
     text-align: center;
@@ -357,6 +321,19 @@ section {
     gap: 2rem;
 }
 
+.portfolio .content{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+    padding: 2rem 2.5rem;
+    text-align: left;
+    gap: 1.5rem;
+}
+.portfolio .content .text{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 .portfolio .box {
     background: #f5f5f5;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -374,33 +351,41 @@ section {
 .portfolio .box h3 {
     font-size: 2rem;
     color: #000;
-    padding: 1rem 2rem;
-    text-align: left;
 }
 
 .portfolio .box p {
     font-size: 1.5rem;
     color: #000;
-    padding: 0 2rem 3rem;
-    text-align: left;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    height: calc(1.5rem * 1.5 * 5s);
 }
 
+.portfolio .button{
+    display: flex;
+    justify-content: center;
+}
 .portfolio .box a {
     display: inline-block;
     font-size: 1.6rem;
     padding: .5rem 1rem;
     background: #b38b59;
     color: #fff;
+    text-align: center;
     border-radius: .5rem;
-    margin: 1rem;
     text-decoration: none;
 }
+.portfolio .tags{
+    display: flex;
+    gap: 8px;
+}
+.portfolio .tags span{
+    font-size: 1.2rem;
+    background-color: #dadada;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    width: fit-content;
+
+}
+
+
 
 #apps .box-container {
     display: flex;
@@ -465,12 +450,8 @@ section {
     width: 100%;
 }
 @media (min-width: 769px) {
-    .home .image {
-        flex: 1 1 42rem;
-    }
-    
-    .home .content {
-        flex: 1 1 42rem;
+    .about, .skills, .education, .portfolio{
+        min-height: calc(100vh - 6.5rem);
     }
     .portfolio .box img {
         width: 100%;
@@ -478,57 +459,32 @@ section {
         min-height: 250px;
     }
 }
+
 @media (max-width: 768px) {
     html {
         font-size: 50%;
     }
 
-    section {
+    .container {
         padding: 3rem 5%;
     }
 
-    .home {
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-    }
-    .home .content .box {
-
-        justify-content: center;
-    }
-
-    .home .content {
-        margin-top: 3rem;
-    }
-
-    .home .content h3 {
+    h3 {
         font-size: 3rem;
     }
 
-    .home .content span {
+    h4 {
         font-size: 2rem;
     }
 
-    .home .content p {
-        font-size: 1.4rem;
-    }
-
-    .about .row {
-        flex-direction: column;
-    }
-
-    .about .row .info-container .box-container {
+    .about .box-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .about .row .info-container .box-container .column {
+    .about .column {
         flex: 1;
         margin-bottom: 2rem;
-    }
-
-    .skills .box-container {
-        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
     }
 
     .portfolio .box {
@@ -550,7 +506,8 @@ section {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
+
     #apps .box .content h3 {
         font-size: 1.8rem;
     }
@@ -567,7 +524,21 @@ section {
         min-width: 350px;
     }
 
-    .navbar a{
-        font-size: 1.3rem;
+
+    .home{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .home .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home img {
+        height: 30rem;
+        width: 30rem;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     }
 }
+
+
