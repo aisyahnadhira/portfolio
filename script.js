@@ -61,7 +61,7 @@ const skillsData = [
     { name: 'Jira', img: 'logo/jira.png' },
     { name: 'Trello', img: 'logo/trello.png' },
     { name: 'Retool', img: 'logo/retool.png' },
-    { name: 'Firebase', img: 'logo/firebase.png' }
+    { name: 'Firebase', img: 'logo/firebase.png' },
 ];
 
 const skillsGrid = document.getElementById('skills-grid');
@@ -96,7 +96,7 @@ const experiences = [
             "Contributed to bi-weekly sprint planning meetings, helping to outline clear priorities and deliverables.",
             "Delivered tasks on time, consistently finishing within the two-week sprint period as assigned.",
             "Implemented designs from Figma into the project, ensuring UI/UX consistency and alignment with project requirements.",
-            "Took initiative in addressing UI issues across different sections, including handling urgent hotfixes, ensuring that all fixes were completed within the same day for quick resolutions."
+            "Took initiative in addressing UI issues across different sections, including handling urgent hotfixes, ensuring that all fixes were completed within the same day for quick resolutions.",
             "Developed a Retool dashboard to display hub data integrated with Firebase Realtime Database, ensuring seamless retrieval and synchronization of related datasets for improved operational insights."
         ]
     },
