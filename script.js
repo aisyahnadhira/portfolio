@@ -103,6 +103,7 @@ const experiences = [
           "Always completed tasks on time in ClickUp, staying within sprint timelines and point allocations.",
           "Took initiative to fix UI issues across different sections, including urgent hotfixes, and made sure they were resolved the same day.",
           "Used Git and GitHub for version control and collaborative development throughout the project lifecycle."
+        "Utilized Cursor AI to assist in writing, understanding, and optimizing code, increasing development efficiency and accuracy."
         ]
     },
     {
