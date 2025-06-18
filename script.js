@@ -62,6 +62,7 @@ const skillsData = [
     { name: 'Trello', img: 'logo/trello.png' },
     { name: 'Retool', img: 'logo/retool.png' },
     { name: 'Firebase', img: 'logo/firebase.png' },
+    { name: 'Stripe', img: 'logo/stripe.png' }
 ];
 
 const skillsGrid = document.getElementById('skills-grid');
