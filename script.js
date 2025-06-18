@@ -90,19 +90,23 @@ const experiences = [
         company: 'Mereka - Kuala Lumpur, Malaysia',
         position: 'Front End Developer',
         tasks: [
-            "Successfully developed nearly 80% of the UI for the 'Job' feature on Mereka.io, using Angular and ensuring it was responsive, allowing clients and experts to post and apply for jobs seamlessly.",
-            "Enhanced the finance page by cleaning up a disorganized transaction interface and ensuring it synchronized correctly with Stripe data, improving accuracy and user experience.",
-            "Consistently completed tasks assigned in ClickUp within the sprint points, ensuring deadlines were always met without exceeding allocated points.",
-            "Actively participated in daily development stand-ups, providing progress updates and collaborating with project management and the development team to resolve any issues.",
-            "Contributed to bi-weekly sprint planning meetings, helping to outline clear priorities and deliverables.",
-            "Delivered tasks on time, consistently finishing within the two-week sprint period as assigned.",
-            "Implemented designs from Figma into the project, ensuring UI/UX consistency and alignment with project requirements.",
-            "Took initiative in addressing UI issues across different sections, including handling urgent hotfixes, ensuring that all fixes were completed within the same day for quick resolutions.",
-            "Developed a Retool dashboard to display hub data integrated with Firebase Realtime Database, ensuring seamless retrieval and synchronization of related datasets for improved operational insights."
+          "Actively joined daily stand-ups and sprint planning sessions to share progress, discuss blockers, and align priorities with the dev team and Project Manager.",
+          "Often handled debugging based on issues reported by QA and worked closely with the Project Manager to make sure problems were fixed quickly and effectively.",
+          "Turned Figma designs into working UI with accurate implementation, keeping the look and feel consistent across the project.",
+          "Built around 80% of the UI for the Job feature on Mereka.io using Angular, covering pages like proposal submission to contract, and made sure everything was responsive.",
+          "Migrated several pages (Hub & Expert) from client-side rendering to server-side rendering to improve speed and performance.",
+          "Cleaned up and improved the finance page, syncing it properly with Stripe data to boost accuracy and user experience.",
+          "Made UI improvements using shared components, custom dialogs, and Lottie animations for a more polished interface.",
+          "Built custom Retool pages to manage data like Expert, Hub, Expertise, Experience, and Job, complete with dashboards and filtered views.",
+          "Created API functions using server-side logic to fetch and display data in Retool efficiently via REST API.",
+          "Double-checked Retool data against actual Stripe transactions to ensure everything matched and was accurate.",
+          "Always completed tasks on time in ClickUp, staying within sprint timelines and point allocations.",
+          "Took initiative to fix UI issues across different sections, including urgent hotfixes, and made sure they were resolved the same day.",
+          "Used Git and GitHub for version control and collaborative development throughout the project lifecycle."
         ]
     },
     {
-        date: 'Mar 2024 - Present',
+        date: 'Mar 2024 - Dec 2024',
         company: 'MSIB Alumni Space - Indonesia',
         position: 'Staf Mentoring Mahasiswa',
         tasks: [
