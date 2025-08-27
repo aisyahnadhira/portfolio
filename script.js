@@ -215,3 +215,83 @@ experiences.forEach(experience => {
     
     experienceContainer.appendChild(experienceElement);
 });
+
+// Fungsi copy to clipboard untuk kontak
+function copyToClipboard(elementId) {
+    const text = document.getElementById(elementId).innerText;
+    navigator.clipboard.writeText(text).then(function() {
+        showCopyNotification();
+    });
+}
+
+function showCopyNotification() {
+    let notif = document.createElement('div');
+    notif.className = 'copy-notification';
+    notif.innerText = 'Copied!';
+    document.body.appendChild(notif);
+    setTimeout(() => {
+        notif.remove();
+    }, 1200);
+}
+
+// Reveal Animation (Scroll Effect)
+function revealOnScroll() {
+    const reveals = document.querySelectorAll('.reveal');
+    const windowHeight = window.innerHeight;
+    reveals.forEach(reveal => {
+        const revealTop = reveal.getBoundingClientRect().top;
+        if (revealTop < windowHeight - 60) {
+            reveal.classList.add('active');
+        } else {
+            reveal.classList.remove('active');
+        }
+    });
+}
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('DOMContentLoaded', revealOnScroll);
+
+// Smooth Scroll for anchor links
+const navLinks = document.querySelectorAll('a[href^="#"]');
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
+
+// Back to Top Button
+const backToTopBtn = document.getElementById('backToTopBtn');
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 300) {
+        backToTopBtn.style.display = 'flex';
+    } else {
+        backToTopBtn.style.display = 'none';
+    }
+});
+backToTopBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// Lazy Load Images
+const lazyImages = document.querySelectorAll('img');
+lazyImages.forEach(img => {
+    img.setAttribute('loading', 'lazy');
+});
+
+// Aksesibilitas: Keyboard navigation untuk tab
+const allTabButtons = document.querySelectorAll('.tab-button');
+allTabButtons.forEach((btn, idx) => {
+    btn.setAttribute('tabindex', '0');
+    btn.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowRight') {
+            allTabButtons[(idx + 1) % allTabButtons.length].focus();
+        } else if (e.key === 'ArrowLeft') {
+            allTabButtons[(idx - 1 + allTabButtons.length) % allTabButtons.length].focus();
+        } else if (e.key === 'Enter' || e.key === ' ') {
+            btn.click();
+        }
+    });
+});

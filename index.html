@@ -11,8 +11,12 @@
 </head>
 
 <body>
+    <nav class="sticky-navbar">
+        <!-- isi navbar lama di sini -->
+    </nav>
+    <button id="backToTopBtn" title="Back to Top" aria-label="Back to Top">&#8679;</button>
     <div class="container">
-        <div class="home" id="home">
+        <div class="home reveal" id="home">
             <img src="images/profile.jpg" alt="">
             <div class="content">
                 <h3>Hi, I am Aisyah Nadhira</h3>
@@ -33,7 +37,7 @@
         </div>
 
         <!-- About Section -->
-        <div class="about" id="about">
+        <div class="about reveal" id="about">
             <h1 class="heading"> about <span>me</span> </h1>
             <div class="row">
                 <div class="info-container">
@@ -67,13 +71,13 @@
 
 
         <!-- Skills Section -->
-        <div class="skills">
+        <div class="skills reveal">
             <h1 class="heading"> <span>my</span> skills </h1>
             <div class="skills-grid" id="skills-grid"></div>
         </div>
 
         <!-- Education Section -->
-        <div class="education">
+        <div class="education reveal">
             <h1 class="heading"> <span>my</span> education </h1>
             <div class="box-container">
 
@@ -100,13 +104,13 @@
             </div>
         </div>
 
-        <div class="education" id="experience">
+        <div class="education reveal" id="experience">
             <h1 class="heading"> <span>my</span> experience </h1>
             <div class="box-container" id="experience-container">
             </div>
         </div>
 
-        <div class="portfolio" id="portfolio">
+        <div class="portfolio reveal" id="portfolio">
             <h1 class="heading"> <span>my</span> work </h1>
             <div class="tab-container">
                 <button class="tab-button active" onclick="openTab('website', this)">Website</button>
@@ -115,7 +119,22 @@
             </div>
             <div class="tab-content" id="website">
                 <div class="box-container">
-                    <div class="box">
+                    <div class="box reveal">
+                        <img src="images/w-airplane.png" alt="">
+                        <div class="content">
+                            <div class="text">
+                                <h3>Airplane</h3>
+                                <p>Airline Ticket Reservation Website is a web application I developed to simplify the process of searching and booking flight tickets online, featuring a modern and responsive design with a clean and intuitive interface to ensure a seamless booking experience across all devices.</p>
+                                <div class="tags">
+                                    <span>ReactJs</span>
+                                </div>
+                            </div>
+                            <div class="button">
+                                <a href="https://airline-ticket-reservation-aisyahnadh.netlify.app/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box reveal">
                         <img src="images/w9.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -135,7 +154,7 @@
                         </div>
                     </div>
 
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/finance.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -155,7 +174,7 @@
                         </div>
                     </div>
 
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/jobs.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -175,7 +194,7 @@
                         </div>
                     </div>
 
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/lottie.gif" alt="Lottie Animation">
                         <div class="content">
                             <div class="text">
@@ -196,7 +215,7 @@
                     </div>
 
 
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w1.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -216,7 +235,7 @@
                         </div>
                     </div>
         
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w-hyge.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -232,7 +251,7 @@
                         </div>
                     </div>
         
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w2.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -250,7 +269,7 @@
                         </div>
                     </div>
         
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w3.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -270,7 +289,7 @@
                         </div>
                     </div>
         
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w-detik.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -288,7 +307,7 @@
                         </div>
                     </div>
         
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w4.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -305,7 +324,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w-inagata.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -323,7 +342,7 @@
                         </div>
 
                     </div>
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w-kuasar.png" alt="">
                         <div class="content">
                             <div class="text">
@@ -339,7 +358,7 @@
                         </div>
 
                     </div>
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w5.PNG" alt="">
                         <div class="content">
                             <div class="text">
@@ -360,7 +379,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w6.PNG" alt="">
                         <div class="content">
                             <div class="text">
@@ -380,7 +399,7 @@
                         </div>
 
                     </div>
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/w7.PNG" alt="">
                         <div class="content">
                             <div class="text">
@@ -406,52 +425,52 @@
         
             <div class="tab-content" id="apps" style="display:none;">
                 <div class="box-container">
-                    <div class="box">
-                        <img src="images/m1.jpg" alt="">
+                    <div class="box reveal">
+                        <div class="box-image-wrapper">
+                            <img src="images/m1.jpg" alt="">
+                            <div class="desc-overlay">SMILE (Sistem Informasi Perlindungan Pekerja) is an app owned by BPJS Ketenagakerjaan to track the visit history of BPJS employees to workers and display the companies connected to BPJS Ketenagakerjaan. Developed using Flutter.</div>
+                        </div>
                         <div class="content">
-                            <div>
-                                <h3>SMILE</h3>
-                                <p>SMILE (Sistem Informasi Perlindungan Pekerja) is an app owned by BPJS Ketenagakerjaan to track the visit history of BPJS employees to workers and display the companies connected to BPJS Ketenagakerjaan. Developed using Flutter.</p>
-                            </div>
+                            <h3>SMILE</h3>
                             <div class="button">
                                 <a class="internal" href="#" target="_blank">View Project</a>
                             </div>
                         </div>
                     </div>
         
-                    <div class="box">
-                        <img src="images/m2.jpg" alt="">
+                    <div class="box reveal">
+                        <div class="box-image-wrapper">
+                            <img src="images/m2.jpg" alt="">
+                            <div class="desc-overlay">A mobile application used to place coffee orders.</div>
+                        </div>
                         <div class="content">
-                            <div>
-                                <h3>Coffee Shop</h3>
-                                <p>A mobile application used to place coffee orders.</p>
-                            </div>
+                            <h3>Coffee Shop</h3>
                             <div class="button">
                                 <a href="https://drive.google.com/file/d/1Tcyaf1nZzPfuHZcvM_Dq2LAiTrpoBfuo/view?usp=drive_link" target="_blank">View Project</a>
                             </div>
                         </div>
                     </div>
         
-                    <div class="box">
-                        <img src="images/m3.jpg" alt="">
+                    <div class="box reveal">
+                        <div class="box-image-wrapper">
+                            <img src="images/m3.jpg" alt="">
+                            <div class="desc-overlay">An app with a collection of recipes, ingredients, and cooking video tutorials.</div>
+                        </div>
                         <div class="content">
-                            <div>
-                                <h3>Recipe Food App</h3>
-                                <p>An app with a collection of recipes, ingredients, and cooking video tutorials.</p>
-                            </div>
+                            <h3>Recipe Food App</h3>
                             <div class="button">
                                 <a href="https://drive.google.com/file/d/1oM0-_LR59OgRPQ6i-kzW08b9FFnOLF92/view?usp=drive_link" target="_blank">View Project</a>
                             </div>
                         </div>
                     </div>
         
-                    <div class="box">
-                        <img src="images/m4.jpg" alt="">
+                    <div class="box reveal">
+                        <div class="box-image-wrapper">
+                            <img src="images/m4.jpg" alt="">
+                            <div class="desc-overlay">An app that provides calorie information for various food recipes, including ingredient details and cooking tutorials.</div>
+                        </div>
                         <div class="content">
-                            <div>
-                                <h3>Calori Food App</h3>
-                                <p>An app that provides calorie information for various food recipes, including ingredient details and cooking tutorials.</p>
-                            </div>
+                            <h3>Calori Food App</h3>
                             <div class="button">
                                 <a href="https://drive.google.com/file/d/15R8b-_TAQUBuWplbE69Xl9vSroO4w5dE/view?usp=drive_link" target="_blank">View Project</a>
                             </div>
@@ -462,7 +481,7 @@
         
             <div class="tab-content" id="uiux">
                 <div class="box-container">
-                    <div class="box">
+                    <div class="box reveal">
                         <img src="images/u1.png" alt="">
                         <div class="content">
                             <div>
