@@ -86,111 +86,115 @@ skillsData.forEach(skill => {
 // experience
 const experiences = [
     {
-        date: 'May 2024 - Present',
+        date: 'May 2024 - Jul 2025',
         company: 'Mereka - Kuala Lumpur, Malaysia',
         position: 'Front End Developer',
         tasks: [
-          "Actively joined daily stand-ups and sprint planning sessions to share progress, discuss blockers, and align priorities with the dev team and Project Manager.",
-          "Often handled debugging based on issues reported by QA and worked closely with the Project Manager to make sure problems were fixed quickly and effectively.",
-          "Turned Figma designs into working UI with accurate implementation, keeping the look and feel consistent across the project.",
-          "Built around 80% of the UI for the Job feature on Mereka.io using Angular, covering pages like proposal submission to contract, and made sure everything was responsive.",
-          "Migrated several pages (Hub & Expert) from client-side rendering to server-side rendering to improve speed and performance.",
-          "Cleaned up and improved the finance page, syncing it properly with Stripe data to boost accuracy and user experience.",
-          "Made UI improvements using shared components, custom dialogs, and Lottie animations for a more polished interface.",
-          "Built custom Retool pages to manage data like Expert, Hub, Expertise, Experience, and Job, complete with dashboards and filtered views.",
-          "Created API functions using server-side logic to fetch and display data in Retool efficiently via REST API.",
-          "Double-checked Retool data against actual Stripe transactions to ensure everything matched and was accurate.",
-          "Always completed tasks on time in ClickUp, staying within sprint timelines and point allocations.",
-          "Took initiative to fix UI issues across different sections, including urgent hotfixes, and made sure they were resolved the same day.",
-          "Used Git and GitHub for version control and collaborative development throughout the project lifecycle.",
-        "Utilized Cursor AI to assist in writing, understanding, and optimizing code, increasing development efficiency and accuracy."
+            'Developed <strong>80% of the Job Feature UI</strong> on Mereka.io using Angular, covering end-to-end flow from job posting to contract tracking.',
+            'Optimized Retool dashboards (Expert, Hub, Job, etc.) → <strong>reduced load time from 3 minutes to 10 seconds</strong> by implementing server-side pagination.',
+            'Migrated Hub & Expert pages to <strong>server-side rendering</strong>, boosting performance and user experience.',
+            'Integrated <strong>Stripe payments</strong> into contract workflows (job poster ↔ job seeker), ensuring secure salary transactions.',
+            'Improved finance page syncing with <strong>Stripe data</strong>, raising data accuracy and reliability.',
+            'Implemented UI enhancements with <strong>shared components</strong>, custom dialogs, and <strong>Lottie animations</strong> for a polished experience.',
+            'Collaborated in <strong>Agile sprints</strong>, consistently delivering tasks on time in ClickUp, with <strong>multiple hotfixes delivered same-day</strong> (recognized by peers for reliability).'
         ]
     },
     {
         date: 'Mar 2024 - Dec 2024',
-        company: 'MSIB Alumni Space - Indonesia',
+        company: 'MSIB Alumni Space - Jakarta, Indonesia',
         position: 'Staf Mentoring Mahasiswa',
         tasks: [
-            "Coordinated MSIB sessions, offering guidance on CV improvement, interview preparation, and program insights.",
-            "Managed a full 7-day schedule as an operator for MSIB sharing sessions, ensuring smooth execution.",
-            "As a committee member in private mentoring, worked with a team of 3, where one mentee secured a position at a multinational company.",
-            "Mentored students through the MSIB process by reviewing CVs, improving applications, and conducting mock interviews.",
-            "Created Instagram content every Friday, attracting over 1000 likes per post, sharing MSIB tips in collaboration with the Director of Mentoring."
+            'Coordinated <strong>7-day MSIB sharing sessions</strong>, ensuring smooth execution and participant engagement.',
+            'Mentored students on CVs, applications, and mock interviews → <strong>one mentee secured a job at a multinational company</strong>.',
+            'Produced weekly Instagram content with MSIB tips, <strong>achieving 1,000+ likes per post</strong> in collaboration with the Director of Mentoring.',
+            'Served as a committee member for private mentoring, collaborating in a <strong>team of 3</strong> to deliver tailored guidance.'
         ]
     },
     {
-        date: 'Feb 2023 - Jun 2023',
-        company: 'Studi Independent Kampus Merdeka X Ruangguru - DKI Jakarta',
-        position: 'Frontend Engineering',
+        date: 'Aug 2023 - Dec 2023',
+        company: 'BPJS Ketenagakerjaan - Jakarta, Indonesia',
+        position: 'Junior Programmer',
         tasks: [
-            'Learn and develop general competencies in software development techniques, with a focus on front-end development.',
-            'Increase understanding of software engineering and apply it in available exercises.',
-            'Learn how to use Git to manage project versions and deploy them in task submissions.',
-            'Deepen knowledge and skills in the JavaScript programming language.',
-            'Use HTML, CSS, and DOM to design and build responsive and attractive user interfaces.',
-            'Complete exercises and final projects that involve using React technology.',
-            'Create a student portal website using React and ensure responsiveness for every device.',
-            'Achieve an A grade in every aspect of the assessment in each chapter of the material studied.'
+            'Developed <strong>Smile Mobile</strong> (employee app) using Flutter & Dart, implementing encode/decode processes and ensuring responsive UI.',
+            'Collaborated on <strong>Smile Mobile & JKN Mobile testing</strong>, improving app functionality and performance before release.',
+            'Built a <strong>MediaWiki-based documentation system</strong> for all BPJS apps, working in a 3-person dev team (2 developers, 1 designer).',
+            'Conducted <strong>pre-testing & troubleshooting</strong> to prepare internal apps for penetration testing.',
+            'Applied <strong>clean code principles</strong> in Flutter, ensuring maintainable and efficient code.',
+            'Reported progress <strong>biweekly to PM</strong> and assisted with finance & tax-related data management.'
+        ]
+    },
+    {
+        date: 'Feb 2023 - Aug 2023',
+        company: 'PT Berani Tumbuh - Malang, Indonesia',
+        position: 'Wordpress Developer',
+        tasks: [
+            'Designed and implemented <strong>2 new website layouts</strong>, improving usability and design consistency.',
+            'Enhanced <strong>SEO performance</strong>, increasing website discoverability on search engines.',
+            'Delivered technical support & troubleshooting for layout and SEO issues, ensuring <strong>smooth website operations</strong>.'
         ]
     },
     {
         date: 'Feb 2023 - Jun 2023',
-        company: 'Studi Independent Kampus Merdeka X Ruangguru - DKI Jakarta',
+        company: 'Studi Independent Kampus Merdeka X Ruangguru - Jakarta, Indonesia',
         position: 'Asisten Mentor',
         tasks: [
-            'Assisting mentees in solving problems and overcoming difficulties that arise during the learning process.',
-            'Providing regular mentoring sessions, including discussions and reviews of exercises, assignments, and other tasks.',
-            'Building a good relationship with mentees and providing moral support to help them achieve their learning goals.',
-            'Reporting on mentoring activities carried out through the Ruangguru platform.'
+            'Mentored <strong>5 mentees</strong> through coding challenges, assignments, and projects.',
+            'Delivered <strong>weekly mentoring sessions</strong>, providing technical guidance and feedback.',
+            'Built strong mentor–mentee relationships, offering moral support to improve confidence and learning outcomes.',
+            'Reported mentee progress and mentoring activities consistently via the <strong>Ruangguru platform</strong>.'
+        ]
+    },
+    {
+        date: 'Feb 2023 - Jun 2023',
+        company: 'Studi Independent Kampus Merdeka X Ruangguru - Jakarta, Indonesia',
+        position: 'Frontend Engineering',
+        tasks: [
+            'Completed <strong>intensive training in frontend development</strong> (HTML, CSS, DOM, JavaScript, Git, React).',
+            'Built a <strong>responsive Student Portal website</strong> using React, accessible on all devices.',
+            'Achieved <strong>Grade A in every assessment</strong>, demonstrating strong mastery of frontend engineering concepts.'
         ]
     },
     {
         date: 'Dec 2022 - Mar 2023',
-        company: 'PT. Cilsy Fiolution Indonesia - Bandung, West Java',
+        company: 'PT. Cilsy Fiolution Indonesia - Bandung, Indonesia',
         position: 'Wordpress Developer',
         tasks: [
-            'Designed and built an LMS (Learning Management System) website using the Laravel platform and MySQL database, based on my own designs using Figma.',
-            'Sliced designs from Figma and implemented them into the website.',
-            'Developed an online learning system emphasizing user experience and student progress tracking.',
-            'Demonstrated proficiency in web programming using the PHP programming language and MySQL database.',
-            'Collaborated with project management to discuss tasks using a Kanban board.',
-            'Participated in weekly sprints to manage project tasks and milestones.'
+            'Designed and developed <strong>4 website layouts</strong> with user-friendly interfaces.',
+            'Optimized site performance, achieving a <strong>100/100 score on Google PageSpeed</strong> across all devices.',
+            'Delivered tailored WordPress solutions to meet <strong>client business goals</strong>.'
         ]
     },
     {
         date: 'May 2022 - Nov 2022',
-        company: 'cmlabs.co - Malang, East Java',
+        company: 'cmlabs.co - Malang, Indonesia',
         position: 'Wordpress Developer',
         tasks: [
-            'Created 10 website layouts using Wordpress, based on designs provided by the design team.',
-            'Sliced designs and implemented changes in appearance on each website page as needed.',
-            'Managed the migration of 12 websites to a new hosting service and optimized website performance to achieve a score of 100 on every device.',
-            'Demonstrated expertise in website development using Wordpress, proficiency in design tools, and knowledge of the latest web technologies.',
-            'Performed keyword adjustments for SEO requirements.',
-            'Participated in weekly sprints to manage project tasks and milestones.'
+            'Created <strong>10 website layouts</strong> in WordPress, collaborating with the design team for pixel-perfect slicing.',
+            'Migrated <strong>12 websites</strong> to a new hosting service and optimized performance to <strong>100/100 PageSpeed score</strong> across devices.',
+            'Implemented <strong>SEO keyword adjustments</strong>, improving site visibility and discoverability.',
+            'Contributed in <strong>Agile sprints</strong>, collaborating with cross-functional teams to deliver high-quality websites.'
         ]
     },
     {
         date: 'May 2022 - Jul 2022',
-        company: 'Inventor Class - Bandung, West Java',
+        company: 'Inventor Class - Bandung, Indonesia',
         position: 'Website Programmer',
         tasks: [
-            'Designed and built an LMS (Learning Management System) website using the Laravel platform and MySQL database, based on my own designs using Figma.',
-            'Sliced designs from Figma and implemented them into the website.',
-            'Developed an online learning system emphasizing user experience and student progress tracking.',
-            'Demonstrated proficiency in web programming using the PHP programming language and MySQL database.',
-            'Collaborated with project management to discuss tasks using a Kanban board.',
-            'Participated in weekly sprints to manage project tasks and milestones.'
+            'Designed and developed an <strong>LMS (Learning Management System)</strong> using Laravel, PHP, and MySQL, based on self-made Figma designs.',
+            'Implemented slicing from Figma to <strong>functional web pages with responsive UI</strong>.',
+            'Built features to <strong>track student progress</strong> and ensure a smooth learning experience.',
+            'Collaborated in <strong>Kanban-based project management</strong> and participated in weekly sprints.'
         ]
     },
     {
         date: 'Sep 2021 - Jul 2022',
-        company: 'Industry Learning Center - Bandung, West Java',
+        company: 'Industry Learning Center - Bandung, Indonesia',
         position: 'Website Developer',
         tasks: [
-            'Developed websites using the Wordpress platform with a focus on responsive design and user-friendly interfaces based on my own designs using Canva.',
-            'Maintained the latest content on the blog by publishing two articles every week.',
-            'Improved skills in website development and CMS usage.'
+            'Developed <strong>multiple websites</strong> using WordPress, focusing on responsive design and user-friendly interfaces.',
+            'Designed layouts independently with <strong>Canva</strong>, turning them into functional WordPress websites.',
+            'Maintained blogs by <strong>publishing 2 articles per week</strong>, ensuring fresh and relevant content.',
+            'Strengthened expertise in <strong>CMS management and web development</strong>.'
         ]
     }
 ];
@@ -295,3 +299,41 @@ allTabButtons.forEach((btn, idx) => {
         }
     });
 });
+
+// Jobs Feature UI slider
+(function initJobsSlider() {
+    const slider = document.getElementById('jobs-slider');
+    if (!slider) return;
+    const slides = slider.querySelectorAll('.slide');
+    const prevBtn = slider.querySelector('.prev');
+    const nextBtn = slider.querySelector('.next');
+    let current = 0;
+
+    function showSlide(index) {
+        slides.forEach((s, i) => {
+            s.classList.toggle('active', i === index);
+        });
+    }
+
+    function next() {
+        current = (current + 1) % slides.length;
+        showSlide(current);
+    }
+
+    function prev() {
+        current = (current - 1 + slides.length) % slides.length;
+        showSlide(current);
+    }
+
+    prevBtn.addEventListener('click', prev);
+    nextBtn.addEventListener('click', next);
+
+    // Optional: keyboard navigation
+    slider.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') prev();
+        if (e.key === 'ArrowRight') next();
+    });
+
+    // Initialize
+    showSlide(current);
+})();
